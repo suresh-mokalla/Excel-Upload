@@ -1,0 +1,171 @@
+/* Container styling */
+.container {
+    margin: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Upload box styles */
+  .upload-box {
+    border: 2px dashed #007bff;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .upload-box:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* File info section */
+  .file-info {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 10px 20px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+  
+  /* Table container and styling */
+  .table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Checkbox column style */
+  input[type='checkbox'] {
+    cursor: pointer;
+  }
+  
+  /* Icons */
+  .fa-trash-alt, .fa-download {
+    margin-right: 5px;
+  }
+/* Divider line with OR */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .divider:not(:empty)::before {
+    margin-right: 10px;
+  }
+  
+  .divider:not(:empty)::after {
+    margin-left: 10px;
+  }
+  
+  .divider span {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+  }
+/* Card for buttons */
+.button-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Button container inside the card */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Buttons styling (as previously) */
+  .btn {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+  }
+  .file-type-info {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+    text-align: center; /* Center align for better presentation */
+  }
+    
